@@ -1,0 +1,2 @@
+from supply_chain_crawler.spiders.company_spiders.wincanton import wincanton
+from supply_chain_crawler.spiders.company_spiders.palletways import palletways
