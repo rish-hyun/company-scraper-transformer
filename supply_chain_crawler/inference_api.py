@@ -5,7 +5,7 @@ from time import sleep
 
 class InferenceAPI:
     def __init__(self):
-        api_token = "api_HEtcUvCvjXPLClCVJbaEwhaqbBmGoDYxFu"
+        api_token = "api_xxxxxxxxxxxxxxxxxxxxxxxx"
         self.headers = {"Authorization": f"Bearer {api_token}"}
         self.base_url = "https://api-inference.huggingface.co/models/{}"
         self.models = {
